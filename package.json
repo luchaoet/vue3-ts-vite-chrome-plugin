@@ -1,0 +1,28 @@
+{
+  "name": "vue3-ts-vite-chrome-plugin",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "tsup": "tsup --format iife",
+    "dev": "vue-tsc && vite build && tsup --format iife",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@luchao/base-sass": "^3.0.5",
+    "@vitejs/plugin-legacy": "^4.0.4",
+    "element-plus": "^2.3.6",
+    "rollup-plugin-vue": "^6.0.0",
+    "tsup": "^6.7.0",
+    "unplugin-vue-jsx": "^0.2.0",
+    "vue": "^3.2.47",
+    "vue-loader": "^17.0.1",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
